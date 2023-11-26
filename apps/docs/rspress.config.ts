@@ -3,7 +3,7 @@ import { defineConfig } from 'rspress/config'
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
-  title: 'Utilikit',
+  title: 'plasticine-utilities',
   description: 'A modern JavaScript utility library.',
   icon: '/rspress-icon.png',
   logo: {
