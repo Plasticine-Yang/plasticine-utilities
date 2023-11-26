@@ -7,9 +7,9 @@
     "preview": "rspress preview"
   },
   "dependencies": {
+    "plasticine-utilities": "workspace:*",
     "react": "^18.2.0",
-    "rspress": "^1.0.0",
-    "utilikit": "workspace:*"
+    "rspress": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^16",

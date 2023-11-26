@@ -8,7 +8,7 @@
  * castArray([1]) === [1]
  * castArray(undefined) === [undefined]
  */
-export function castArray<T>(itemOrArray?: T | undefined | T[] | undefined[]): (T | undefined)[] {
+export function castArray<T>(itemOrArray?: T | undefined | (T | undefined)[]): (T | undefined)[] {
   if (arguments.length === 0) {
     return []
   }
