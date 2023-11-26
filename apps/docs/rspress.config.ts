@@ -13,4 +13,5 @@ export default defineConfig({
   themeConfig: {
     socialLinks: [{ icon: 'github', mode: 'link', content: 'https://github.com/Plasticine-Yang/plasticine-utilities' }],
   },
+  base: '/plasticine-utilities',
 })

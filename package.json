@@ -9,6 +9,7 @@
     "play": "turbo dev --filer=./apps/playground",
     "docs:dev": "pnpm -C apps/docs dev",
     "docs:build": "pnpm -C apps/docs build",
+    "docs:preview": "pnpm -C apps/docs preview",
     "test": "vitest",
     "test:u": "vitest -u",
     "release": "pnpm build && pnpm changeset publish",
